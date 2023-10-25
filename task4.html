@@ -1,0 +1,84 @@
+<h1>Fill in your information</h1>
+<form action="/FPE/response.txt" method="post" >
+    <fieldset>
+        <legend>Form</legend>
+    
+    <label for="firstName">First Name</label><br>
+    <input type="text" id="firstName" name="firstName"> 
+    <br>
+    <label for="lastName">Last Name</label><br>
+    <input type="text" id="lastName" name="lastName"> 
+    <br>
+    <label for="Email">Email</label><br>
+    <input type="email" id="Email" name="Email"> 
+    
+    <h4> Your gender </h4>
+    <input type="radio" id="male" name="Gender">
+    <label for="male">Male</label><br>
+    <input type="radio" id="Female" name="Gender">
+    <label for="Female">Female</label><br>
+   
+    <h4> Favorite Subject </h4>
+    <input type="checkbox" id="c++" name="favoriteLanguage">
+    <label for="c++">C++</label><br>
+    <input type="checkbox" id="php" name="favoriteLanguage">
+    <label for="php">Php</label><br>
+    <input type="checkbox" id="java" name="favoriteLanguage">
+    <label for="java">Java</label><br>
+    <input type="checkbox" id="c#" name="favoriteLanguage">
+    <label for="c#">C#</label><br>
+    
+    <h4>Your City</h4>
+    <label for="city">City:</label>
+    <select id="city" name="city">
+    <option value="irbid">Irbid</option>
+    <option value="amman">Amman</option>
+    <option value="madapa">Madapa</option>
+    <option value="jerash">Jerash</option>
+    </select>
+    <br><br>
+
+    <label for="myfile">Upload File:</label>
+    <input type="file" id="myfile" name="myfile" multiple><br><br>
+    <label for="aboutYourSelf">Whrite about your self</label><br><br>
+    <textarea id="aboutYourSelf" name="description" maxlength="40"></textarea><br>
+    
+    <input type="submit">
+    </fieldset>
+</form>
+
+<br><br><br>
+
+
+<form>
+
+    <label for="name">Name:</label><span></span>
+    <input type="text" id="name" name="Name"> 
+    <br>
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="Address"> 
+    <br>
+    <label for="city">City:</label>
+    <input type="text" id="city" name="City"> 
+    <br>
+    <label for="state">State:</label>
+    <input type="text" id="state" name="State">
+    <br>
+    <label for="zip">Zip:</label>
+    <input type="number" id="zip" name="Zip">
+    <br>
+    <label for="magazine">Magazine:</label>
+    <select id="magazine" name="Magazine">
+    <option value="RealMadrid">RealMadrid</option>
+    <option value="barcelona">barcelona</option>
+    <option value="Alahly">Alahly</option>
+    </select>
+    <br>
+    <span>Subscription:</span>
+    <input type="radio" id="1" name="Subscription">
+    <label for="1">1 year</label>
+    <input type="radio" id="2" name="Subscription">
+    <label for="2">2 years</label><br><br>
+
+    <input type="submit" value="Send Your Order ">
+</form>
